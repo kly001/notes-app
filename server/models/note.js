@@ -9,7 +9,7 @@ const NoteSchema = new Schema({
         videoLink: String, 
         videoTimestamp: Number,
         date: {
-            type: Date, default: Date.now()
+            type: Date, default: Date.now
         }
     }, {
         timestamps: true 
